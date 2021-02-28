@@ -17,4 +17,5 @@ jobs:
                           
             - name: Step 2 - Build warp-plus-cloudflare
               run: |
+                  sudo python3 --version
                   sudo bash wp-plus.py
