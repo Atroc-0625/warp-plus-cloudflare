@@ -3,7 +3,8 @@ name: Build Atroc-0625/warp-plus-cloudflare
 on:
   push:
     branches: [ master ]
-    
+  schedule:
+    - cron: "0 */7 * * *"
   watch:
     types: [started]
     
